@@ -37,3 +37,7 @@ input[type='submit'] {
 p.error {
   color: #f44336;
 }
+.short{
+  background-color: rgb(222, 218, 212);
+  border: solid red 1px;
+}

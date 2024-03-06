@@ -1,9 +1,12 @@
 {
+  "homepage": "https://VinayFunde.github.io/link-shortner",
   "name": "url-shortner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
@@ -13,6 +16,7 @@
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "gh-pages": "^6.1.1",
     "http-errors": "^1.8.0",
     "mongoose": "^5.10.3",
     "shortid": "^2.2.15"
